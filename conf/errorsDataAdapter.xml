@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<csvDataAdapter class="net.sf.jasperreports.data.csv.CsvDataAdapterImpl">
+    <name>ft Data Adapter 1</name>
+    <dataFile type="repositoryDataLocation">
+        <location>C:\Users\edwpo\AppData\Local\Temp\errorsReport.csv</location>
+    </dataFile>
+    <encoding>UTF-8</encoding>
+    <recordDelimiter>
+    </recordDelimiter>
+    <fieldDelimiter>,</fieldDelimiter>
+    <useFirstRowAsHeader>true</useFirstRowAsHeader>
+    <locale>ru_RU</locale>
+    <timeZone>Europe/Moscow</timeZone>
+    <queryExecuterMode>false</queryExecuterMode>
+    <columnNames>number</columnNames>
+    <columnNames>date</columnNames>
+    <columnNames>name</columnNames>
+    <columnNames>start</columnNames>
+    <columnNames>finish</columnNames>
+    <columnNames>startedTesters</columnNames>
+    <columnNames>finishTesters</columnNames>
+    <columnNames>errorTesters</columnNames>
+    <columnNames>id</columnNames>
+    <columnNames>time</columnNames>
+    <columnNames>message</columnNames>
+</csvDataAdapter>
