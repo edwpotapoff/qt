@@ -13,6 +13,6 @@ class CdpDot extends Script {
   val f1 = "./files/dot/f1.json".file()
 
   val load = Load(
-    KafkaSend("producer:{cdp-dot}", body = f1)
+    KafkaSend("producer:${cdp-dot}", body = f1)
   )
 }
